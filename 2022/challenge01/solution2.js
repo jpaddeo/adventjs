@@ -1,6 +1,7 @@
-function wrapping(gifts) {
-  return gifts.map((gift) => {
-    const wrapper = '*'.repeat(gift.length + 2);
-    return `${wrapper}\n*${gift}*\n${wrapper}`;
-  });
-}
+wrapping = (gifts) => {
+  const wrap = (gift) => {
+    const w = '*'.repeat(gift.length + 2);
+    return [w, `*${gift}*`, w].join('\n');
+  };
+  return gifts.map(wrap);
+};

@@ -22,7 +22,7 @@ console.log(wrapped);
 # Alternative I
 
 ```js
-function wrapping(gifts) {
+wrapping = (gifts) => {
   return gifts.map((gift) => {
     const wrapper = '*'.repeat(gift.length + 2);
     return `${wrapper}\n*${gift}*\n${wrapper}`;
@@ -34,7 +34,7 @@ function wrapping(gifts) {
 # Alternative II
 
 ```js
-function wrapping(gifts) {
+wrapping = (gifts) => {
   const wrap = (gift) => {
     const w = '*'.repeat(gift.length + 2)
     return [w,`*${gift}*`,w].join('\n')
