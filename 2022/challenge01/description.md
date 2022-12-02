@@ -43,3 +43,16 @@ wrapping = (gifts) => {
 }
 ```
 [Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge01/solution2.js)
+
+# Alternative III
+
+```js
+wrapping = (gifts) => {
+  const envolver = () => {
+    const sobre = papel.repeat(palabra.length + extension)
+    return `${sobre}\n*${palabra}*\n${sobre}`
+  }
+  return gifts.map((gift) => envolver('*', gift, 2))
+}
+```
+[Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge01/solution3.js)
