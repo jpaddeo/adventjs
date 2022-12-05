@@ -19,7 +19,7 @@ console.log(wrapped);
 
 # Solutions
 
-# Alternative I
+## Alternative I
 
 ```js
 wrapping = (gifts) => {
@@ -31,7 +31,7 @@ wrapping = (gifts) => {
 ```
 [Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge01/solution1.js)
 
-# Alternative II
+## Alternative II
 
 ```js
 wrapping = (gifts) => {
@@ -44,7 +44,7 @@ wrapping = (gifts) => {
 ```
 [Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge01/solution2.js)
 
-# Alternative III
+## Alternative III
 
 ```js
 wrapping = (gifts) => {
