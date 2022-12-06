@@ -1,3 +1,5 @@
+# Description 
+
 To not tire the reindeer, Papa Noel wants to leave the maximum number of gifts by making the least number of trips possible.
 
 He has an array of cities where each element is the _number of gifts he can leave there_. For example, [12, 3, 11, 5, 7]. He also has a _limit on the number of gifts_ that can fit in his bag, and finally, the _maximum number of cities_ that his reindeer can visit.
