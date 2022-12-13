@@ -42,7 +42,7 @@ countTime([0, 0, 1, 0, 0]); // 28
 
 # Solutions
 
-# Alternative I
+## Alternative I
 
 ```js
 function countTime(leds) {
@@ -57,3 +57,15 @@ function countTime(leds) {
 ```
 
 [Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge09/solution1.js)
+
+## Alternative II
+
+```js
+function countTime(leds) {
+  const arr = leds.join('').split(1);
+  arr[0] += arr.pop();
+  return Math.max(...arr.map((led) => led.length)) * 7;
+}
+```
+
+[Download](https://github.com/jpaddeo/tdd-adventjs/2022/challenge09/solution2.js)
