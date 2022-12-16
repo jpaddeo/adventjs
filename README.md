@@ -24,3 +24,4 @@ Resolución de retos de [adventJS](https://adventjs.dev/) creado por [@midudev](
 |    #12    |          Electric sleighs, wow!          | [Challenge12](2022/challenge12/description.md) |
 |    #13    |      Backups for Santa Claus files       | [Challenge13](2022/challenge13/description.md) |
 |    #14    |              The best path               | [Challenge14](2022/challenge14/description.md) |
+|    #15    |      Decorating the christmas tree       | [Challenge15](2022/challenge15/description.md) |
