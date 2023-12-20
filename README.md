@@ -6,6 +6,19 @@ Resolución de retos de [adventJS](https://adventjs.dev/) creado por [@midudev](
 
 </div>
 
+## Tabla de retos 2023
+
+| Challenge |            Title            |                    Solution                    |
+| :-------: | :-------------------------: | :--------------------------------------------: |
+|    #01    |     First gift repeated     | [Challenge01](2023/challenge01/description.md) |
+|    #02    |    We start the factory     | [Challenge02](2023/challenge02/description.md) |
+|    #03    |       The naughty elf       | [Challenge03](2023/challenge03/description.md) |
+|    #04    | Turn the parentheses around | [Challenge04](2023/challenge04/description.md) |
+|    #05    |     Santa's cybertruck      | [Challenge05](2023/challenge05/description.md) |
+|    #06    |    The reindeer on trial    | [Challenge06](2023/challenge06/description.md) |
+|    #07    |        The 3D Boxes         | [Challenge07](2023/challenge07/description.md) |
+|    #08    |    Sorting the warehouse    | [Challenge08](2023/challenge08/description.md) |
+
 ## Tabla de retos 2022
 
 | Challenge |                  Title                   |                    Solution                    |
